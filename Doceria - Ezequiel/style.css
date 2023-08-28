@@ -1,0 +1,158 @@
+h1,
+h3 {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: #e95593;
+}
+
+h1 {
+  color: white;
+  font-size: 95.7px;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #7aceeb;
+  font-size: 44.8px;
+  margin-top: 0;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 50px;
+  margin: 0;
+  /* Removemos as margens padrão do parágrafo */
+}
+
+li {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 40px;
+  margin: 0;
+  /* Removemos as margens padrão dos itens da lista */
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px;
+  gap: 10px;
+}
+
+.produto {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  margin: 10px;
+  /* text-align: left; */
+  /* justify-items: flex-start; */
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+.content-texts {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.opcao1 {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.precos {
+  border-collapse: collapse;
+  /* Colapse a borda da tabela */
+  float: right;
+  /* Alinhar a tabela à direita */
+  width: 200px;
+  /* Largura reduzida da tabela */
+  margin-left: 20px;
+  /* Espaçamento entre as opções e a tabela de preços */
+  margin-top: 10px;
+  /* Espaçamento entre o div content e a tabela de preços */
+}
+
+/* Estilo das células do cabeçalho */
+.precos th {
+  padding: 8px;
+  background-color: #f2f2f2;
+  border: 1px solid black;
+  /* Bordas pretas */
+  color: #e95593;
+  /* Cor da letra */
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Estilo das células de dados */
+.precos td {
+  padding: 8px;
+  border: 1px solid black;
+  /* Bordas pretas */
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Estilo dos preços */
+.precos td {
+  color: white;
+  /* Cor da letra */
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #e95593;
+  /* Cor do fundo da célula do preço */
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.menu h1,
+.menu h3 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu a {
+  text-decoration: none;
+}
+
+.index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.voltar {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
